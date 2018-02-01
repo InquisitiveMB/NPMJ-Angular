@@ -1,0 +1,20 @@
+<p>
+  Currency-table works!
+</p>
+<h3>Persons List</h3>
+<table class="table">
+  <tr>
+      <th>Id</th>
+      <th>Date</th>
+      <th>Payeename</th> 
+      <th>Payername</th> 
+      <th>Amount</th>
+  </tr>
+  <tr *ngFor="let person of persons">
+      <td>{{person.id}}</td>
+      <td>{{person.date}}</td>
+      <td>{{person.payeeName}}</td>
+      <td>{{person.payerName}}</td>
+      <td>{{person.amount}}</td>
+  </tr>
+</table>
